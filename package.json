@@ -27,9 +27,7 @@
   },
   "types": "index.d.ts",
   "scripts": {
-    "test": "standard && standard ./bin/* && mocha",
-    "prepublishOnly": "npm t",
-    "postpublish": "git push && git push --tags"
+    "test": "standard && standard ./bin/* && mocha"
   },
   "license": "MIT",
   "dependencies": {
